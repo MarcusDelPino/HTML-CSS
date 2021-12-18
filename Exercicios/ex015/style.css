@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: #852345;
+    font-family: fantasy;
+    font-size: 16px;
+}
+h1{
+    color: blueviolet;
+    font-size: 3em;
+}
+h2{
+    text-decoration: underline red;
+}
+p{
+    color: white;
+    text-align: center;
+}
