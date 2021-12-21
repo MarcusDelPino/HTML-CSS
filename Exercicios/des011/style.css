@@ -3,9 +3,22 @@
 * {
     text-align: center;
 }
-body {
-    background-image: url('imagens/pexels-abdullah-ghatasheh-1631677.jpg');
+div#d1 {
+   background-image: url(imagens/pexels-eberhard-grossgasteiger-844297.jpg);
+   background-position: center bottom;
+   background-attachment: fixed;
+   height: 500px;
+   width: 100vw;
+   position: relative;
+
 }
-section#s1 {
+section {
+    position: absolute;
+    padding-top: 20px;
     background-color: aliceblue;
+    height: 800px;
+    width: 100vw;
+}
+p {
+    margin: 0px;
 }
