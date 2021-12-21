@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+
+* {
+    text-align: center;
+}
+body {
+    background-image: url('imagens/pexels-abdullah-ghatasheh-1631677.jpg');
+}
+section#s1 {
+    background-color: aliceblue;
+}
