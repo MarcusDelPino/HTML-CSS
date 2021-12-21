@@ -1,24 +1,68 @@
 @charset 'UTF-8';
 
 * {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    
+}
+body {
+    background-color: whitesmoke;
+}
+header {
+    background-color: cadetblue;
+    padding-bottom: 25px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.678);
+}
+header > h1 {
+    font-size: 5em;
+    text-align: center;
+    padding: 30px 0px;
+}
+header > p {
     text-align: center;
 }
-div#d1 {
-   background-image: url(imagens/pexels-eberhard-grossgasteiger-844297.jpg);
-   background-position: center bottom;
-   background-attachment: fixed;
-   height: 500px;
-   width: 100vw;
-   position: relative;
-
+a{
+    text-decoration: none;
+}
+main {
 }
 section {
-    position: absolute;
-    padding-top: 20px;
-    background-color: aliceblue;
-    height: 800px;
-    width: 100vw;
+    margin: 300px 0px 300px 0px;
 }
-p {
-    margin: 0px;
+section#s2 {
+    background-image: url('imagens/pexels-eberhard-grossgasteiger-844297.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.274);
+    position: relative;
+}
+section#s4 {
+    position: relative;
+    background-image: url('imagens/pexels-riccardo-bertolo-4245826.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.226);
+    background-size: 100% 100%;
+    width: 400px;
+    height: 400px;
+    left: 200px;
+}
+p.p-box {
+    margin-left: 100px;
+    font-size: 3em;
+    padding: 75px 0px;
+}
+footer {
+    margin-top: 100px;
+    text-align: center;
 }
