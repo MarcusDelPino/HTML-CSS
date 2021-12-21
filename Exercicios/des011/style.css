@@ -25,6 +25,11 @@ header > p {
 }
 a{
     text-decoration: none;
+    font-weigth: bolder;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
 }
 main {
 }
@@ -34,28 +39,19 @@ section {
 section#s2 {
     background-image: url('imagens/pexels-eberhard-grossgasteiger-844297.jpg');
     background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.274);
-    position: relative;
+    
 }
 section#s4 {
-    position: relative;
     background-image: url('imagens/pexels-riccardo-bertolo-4245826.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-}
-#container {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.226);
-    background-size: 100% 100%;
-    width: 400px;
-    height: 400px;
-    left: 200px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.274);
 }
 p.p-box {
     margin-left: 100px;
